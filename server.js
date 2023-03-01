@@ -4,7 +4,7 @@ const path = require('path')
 const Web3 = require('web3')
 
 const app = express()
-const port = 3000
+const port = 5000
 
 const web3 = new Web3("https://eth-goerli.g.alchemy.com/v2/OPLiHQCXVIkbWUj74xeWKFU4nPz6hp0a")
 const ADDRESS = "0x503cf3096dD8E64098c4b7d1c3963D1dCAc6B224"
